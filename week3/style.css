@@ -1,0 +1,74 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-box{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us{
+    font-size: 30px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.input{
+    font-size: 20px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.small-box-2{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.text-name{
+    font-size: 20px;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+}
+
+.button{
+    float: right;
+    width: 150px;
+    height: 30px;
+    background-color: orange;
+    border: none;
+    margin-right: 10px;
+}
+
+.email{
+    width: 100%;
+    margin: auto 10px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    width: 100%;
+}
+
+.marg{
+    margin: 0 10px;
+}
+
+.message{
+    width: 100%;
+    min-height: 200px;
+    margin: auto 10px;
+}
