@@ -1,0 +1,57 @@
+.container{
+    justify-content: space-around;
+    background-color: rgb(226, 234, 231);
+    display: flex;
+}
+
+.container-2{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+/*     box-shadow: 3px 3px 3px rgb(0, 0, 0);
+ */}
+
+.header{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.box{
+    width: 450px;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+.text-1{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 10px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.line{
+    border-top: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.left-cont{
+    display: flex;
+    float: left;
+    justify-content: space-around;
+}
+
+.text-2{
+    font-size: 20px;
+    margin: 10px 10px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+
+}
