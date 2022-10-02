@@ -10,12 +10,16 @@
     align-items: center;
 }
 
+.container-3{
+    justify-content: space-between;
+    display: flex;
+}
+
 .pic{
     width: 200px;
     height: 200px;
     border-radius: 100%;
-/*     box-shadow: 3px 3px 3px rgb(0, 0, 0);
- */}
+}
 
 .header{
     font-size: 30px;
@@ -40,12 +44,15 @@
 .line{
     border-top: 3px solid black;
     margin-bottom: 10px;
+    align-content: space-around;
+    align-items: center;
 }
 
 .left-cont{
     display: flex;
     float: left;
     justify-content: space-around;
+    align-items: center;
 }
 
 .text-2{
@@ -53,5 +60,4 @@
     margin: 10px 10px;
     font-family: 'Indie Flower', cursive;
     font-family: 'Shadows Into Light', cursive;
-
 }
